@@ -1,5 +1,6 @@
-﻿using System;
-using DesignPatterns.Patterns.BuilderPattern;
+﻿using DesignPatterns.Patterns.BuilderPattern;
+using DesignPatterns.Patterns.FactoryMethodPattern;
+using System;
 
 namespace DesignPatterns
 {
@@ -8,6 +9,10 @@ namespace DesignPatterns
         static void Main(string[] args)
         {
             BuilderPatternProgram.Run();
+
+            FactoryMethodPatternProgram.Run();
+
+            Console.WriteLine("\n");
         }
     }
 }

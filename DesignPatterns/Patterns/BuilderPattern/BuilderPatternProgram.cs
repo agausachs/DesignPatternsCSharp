@@ -5,6 +5,10 @@ namespace DesignPatterns.Patterns.BuilderPattern
     {
         public static void Run()
         {
+            Console.WriteLine("-------------------------");
+            Console.WriteLine(" BUILDER PATTERN ");
+            Console.WriteLine("-------------------------");
+
             // El código del cliente crea un objeto builder, se lo pasa al director
             // y entonces inicia el proceso de construcción. El resultado final
             // es recuperado del objeto builder.

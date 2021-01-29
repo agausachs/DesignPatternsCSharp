@@ -8,5 +8,9 @@
   <ItemGroup>
     <Folder Include="Patterns\" />
     <Folder Include="Patterns\BuilderPattern\" />
+    <Folder Include="SolidPrinciples\LiskovSubstitution\" />
+    <Folder Include="SolidPrinciples\InterfaceSegregation\" />
+    <Folder Include="SolidPrinciples\DependencyInversion\" />
+    <Folder Include="SolidPrinciples\OpenClosed\" />
   </ItemGroup>
 </Project>

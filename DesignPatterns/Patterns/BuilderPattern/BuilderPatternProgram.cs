@@ -29,6 +29,8 @@ namespace DesignPatterns.Patterns.BuilderPattern
             builder.BuildPartA();
             builder.BuildPartC();
             Console.WriteLine(builder.GetProduct().ListParts());
+
+            Console.WriteLine("\n");
         }
     }
 }

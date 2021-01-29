@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Patterns.BuilderPattern;
 using DesignPatterns.Patterns.FactoryMethodPattern;
+using DesignPatterns.SolidPrinciples.SingleResponsibility;
 using System;
 
 namespace DesignPatterns
@@ -11,6 +12,10 @@ namespace DesignPatterns
             BuilderPatternProgram.Run();
 
             FactoryMethodPatternProgram.Run();
+
+            // SOLID
+
+            SRPProgram.Run();
 
             Console.WriteLine("\n");
         }

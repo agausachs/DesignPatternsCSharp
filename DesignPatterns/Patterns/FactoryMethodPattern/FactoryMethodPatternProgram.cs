@@ -16,6 +16,8 @@ namespace DesignPatterns.Patterns.FactoryMethodPattern
 
             Console.WriteLine("App: Lanzada con el ConcreteCreator2.");
             ClientCode(new ConcreteCreator2());
+
+            Console.WriteLine("\n");
         }
 
         // El código cliente funciona con una instancia de un Creator concreto, aunque

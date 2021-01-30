@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Patterns.BuilderPattern;
 using DesignPatterns.Patterns.FactoryMethodPattern;
+using DesignPatterns.SolidPrinciples.LiskovSubstitution;
 using DesignPatterns.SolidPrinciples.OpenClosed;
 using DesignPatterns.SolidPrinciples.SingleResponsibility;
 using System;
@@ -21,6 +22,8 @@ namespace DesignPatterns
             SRPProgram.Run();
 
             OCPProgram.Run();
+
+            LSPProgram.Run();
 
             Console.WriteLine("\n");
         }

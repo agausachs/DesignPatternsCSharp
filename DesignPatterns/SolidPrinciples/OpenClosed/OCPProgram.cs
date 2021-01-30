@@ -25,34 +25,34 @@ namespace DesignPatterns.SolidPrinciples.OpenClosed
 
             Console.WriteLine(" BAD ACCOUNTS ");
 
-            Console.WriteLine(" Bad Regular ");
-            BadAccount badAccountOne = new BadAccount();
-            badAccountOne.CalcInterest("Regular");
+            Console.WriteLine("Bad Regular ");
+            BadAccount badAccountOne = new BadAccount { Balance = 1000 };
+            Console.WriteLine(badAccountOne.CalcInterest("Regular"));
 
-            Console.WriteLine(" Bad Salary ");
-            BadAccount badAccountTwo = new BadAccount();
-            badAccountTwo.CalcInterest("Salary");
+            Console.WriteLine("Bad Salary ");
+            BadAccount badAccountTwo = new BadAccount { Balance = 2000 };
+            Console.WriteLine(badAccountTwo.CalcInterest("Salary"));
 
-            Console.WriteLine(" Bad Corporate ");
-            BadAccount badAccountThree = new BadAccount();
-            badAccountThree.CalcInterest("Corporate");
+            Console.WriteLine("Bad Corporate ");
+            BadAccount badAccountThree = new BadAccount { Balance = 3000 };
+            Console.WriteLine(badAccountThree.CalcInterest("Corporate"));
 
 
             Console.WriteLine("\n");
 
 
-            Console.WriteLine(" GOOD ACCOUNTS ");
+            Console.WriteLine("GOOD ACCOUNTS ");
 
-            Console.WriteLine(" Good Regular ");
-            IAccount accountOne = new GoodRegularSavingAccount();
+            Console.WriteLine("Good Regular ");
+            IAccount accountOne = new GoodRegularSavingAccount { Balance = 1000 };
             Console.WriteLine(accountOne.CalcInterest());
 
-            Console.WriteLine(" Good Salary ");
-            IAccount accountTwo = new GoodSalarySavingAccount();
+            Console.WriteLine("Good Salary ");
+            IAccount accountTwo = new GoodSalarySavingAccount { Balance = 2000 };
             Console.WriteLine(accountTwo.CalcInterest());
 
-            Console.WriteLine(" Good Corporate ");
-            IAccount accountThree = new GoodCorporateAccount();
+            Console.WriteLine("Good Corporate ");
+            IAccount accountThree = new GoodCorporateAccount { Balance = 3000 };
             Console.WriteLine(accountThree.CalcInterest());
 
             Console.WriteLine("\n");

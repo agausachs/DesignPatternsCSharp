@@ -12,5 +12,6 @@
     <Folder Include="SolidPrinciples\InterfaceSegregation\" />
     <Folder Include="SolidPrinciples\DependencyInversion\" />
     <Folder Include="SolidPrinciples\OpenClosed\" />
+    <Folder Include="Patterns\SingletonPattern\" />
   </ItemGroup>
 </Project>

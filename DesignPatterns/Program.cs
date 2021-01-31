@@ -1,9 +1,12 @@
-﻿using DesignPatterns.Patterns.BuilderPattern;
+﻿using System;
+using DesignPatterns.Patterns.BuilderPattern;
 using DesignPatterns.Patterns.FactoryMethodPattern;
+using DesignPatterns.Patterns.SingletonPattern;
+using DesignPatterns.SolidPrinciples.DependencyInversion;
+using DesignPatterns.SolidPrinciples.InterfaceSegregation;
 using DesignPatterns.SolidPrinciples.LiskovSubstitution;
 using DesignPatterns.SolidPrinciples.OpenClosed;
 using DesignPatterns.SolidPrinciples.SingleResponsibility;
-using System;
 
 namespace DesignPatterns
 {
@@ -17,13 +20,21 @@ namespace DesignPatterns
 
             FactoryMethodPatternProgram.Run();
 
-            // SOLID
+            SingletonPatternProgram.Run();
+
+            // SOLID PRINCIPLES
 
             SRPProgram.Run();
 
             OCPProgram.Run();
 
             LSPProgram.Run();
+
+            ISPProgram.Run();
+
+            DIPProgram.Run();
+
+            // End
 
             Console.WriteLine("\n");
         }

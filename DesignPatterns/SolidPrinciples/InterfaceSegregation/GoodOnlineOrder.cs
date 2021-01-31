@@ -12,7 +12,7 @@ namespace DesignPatterns.SolidPrinciples.InterfaceSegregation
         public string CCProcess()
         {
             // Procesar con Tarjeta de Crédito
-            return "Good Online Order Añadir a Carrito";
+            return "Good Online Order Procesar con Tarjeta de crédito";
         }
     }
 }

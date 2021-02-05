@@ -17,5 +17,6 @@
     <Folder Include="Patterns\Creacionales\FactoryMethodPattern\" />
     <Folder Include="Patterns\Creacionales\SingletonPattern\" />
     <Folder Include="Patterns\Creacionales\PrototypePattern\" />
+    <Folder Include="Patterns\Estructurales\" />
   </ItemGroup>
 </Project>

@@ -13,5 +13,6 @@
     <Folder Include="SolidPrinciples\DependencyInversion\" />
     <Folder Include="SolidPrinciples\OpenClosed\" />
     <Folder Include="Patterns\SingletonPattern\" />
+    <Folder Include="Patterns\AbstractFactoryPattern\" />
   </ItemGroup>
 </Project>

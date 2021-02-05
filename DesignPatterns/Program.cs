@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.Patterns.AbstractFactoryPattern;
 using DesignPatterns.Patterns.BuilderPattern;
 using DesignPatterns.Patterns.FactoryMethodPattern;
 using DesignPatterns.Patterns.SingletonPattern;
@@ -21,6 +22,8 @@ namespace DesignPatterns
             FactoryMethodPatternProgram.Run();
 
             SingletonPatternProgram.Run();
+
+            AbstractFactoryPatternProgram.Run();
 
             // SOLID PRINCIPLES
 

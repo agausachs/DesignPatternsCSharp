@@ -1,8 +1,9 @@
 ﻿using System;
-using DesignPatterns.Patterns.AbstractFactoryPattern;
-using DesignPatterns.Patterns.BuilderPattern;
-using DesignPatterns.Patterns.FactoryMethodPattern;
-using DesignPatterns.Patterns.SingletonPattern;
+using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
+using DesignPatterns.Patterns.Creacionales.BuilderPattern;
+using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
+using DesignPatterns.Patterns.Creacionales.PrototypePattern;
+using DesignPatterns.Patterns.Creacionales.SingletonPattern;
 using DesignPatterns.SolidPrinciples.DependencyInversion;
 using DesignPatterns.SolidPrinciples.InterfaceSegregation;
 using DesignPatterns.SolidPrinciples.LiskovSubstitution;
@@ -24,6 +25,8 @@ namespace DesignPatterns
             SingletonPatternProgram.Run();
 
             AbstractFactoryPatternProgram.Run();
+
+            PrototypePatternProgram.Run();
 
             // SOLID PRINCIPLES
 

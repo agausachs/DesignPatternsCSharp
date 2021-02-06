@@ -4,6 +4,7 @@ using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
 using DesignPatterns.Patterns.Creacionales.PrototypePattern;
 using DesignPatterns.Patterns.Creacionales.SingletonPattern;
+using DesignPatterns.Patterns.Estructurales.AdapterPattern;
 using DesignPatterns.SolidPrinciples.DependencyInversion;
 using DesignPatterns.SolidPrinciples.InterfaceSegregation;
 using DesignPatterns.SolidPrinciples.LiskovSubstitution;
@@ -16,7 +17,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            // PATTERNS
+            // PATTERNS CREACIONALES
 
             BuilderPatternProgram.Run();
 
@@ -27,6 +28,10 @@ namespace DesignPatterns
             AbstractFactoryPatternProgram.Run();
 
             PrototypePatternProgram.Run();
+
+            // PATTERNS ESTRUCTURALES
+
+            AdapterPatternProgram.Run();
 
             // SOLID PRINCIPLES
 

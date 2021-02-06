@@ -5,6 +5,7 @@ using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
 using DesignPatterns.Patterns.Creacionales.PrototypePattern;
 using DesignPatterns.Patterns.Creacionales.SingletonPattern;
 using DesignPatterns.Patterns.Estructurales.AdapterPattern;
+using DesignPatterns.Patterns.Estructurales.CompositePattern;
 using DesignPatterns.SolidPrinciples.DependencyInversion;
 using DesignPatterns.SolidPrinciples.InterfaceSegregation;
 using DesignPatterns.SolidPrinciples.LiskovSubstitution;
@@ -32,6 +33,8 @@ namespace DesignPatterns
             // PATTERNS ESTRUCTURALES
 
             AdapterPatternProgram.Run();
+
+            CompositePatternProgram.Run();
 
             // SOLID PRINCIPLES
 

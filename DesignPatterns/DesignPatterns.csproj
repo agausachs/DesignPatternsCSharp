@@ -19,5 +19,6 @@
     <Folder Include="Patterns\Creacionales\PrototypePattern\" />
     <Folder Include="Patterns\Estructurales\" />
     <Folder Include="Patterns\Estructurales\AdapterPattern\" />
+    <Folder Include="Patterns\Estructurales\CompositePattern\" />
   </ItemGroup>
 </Project>

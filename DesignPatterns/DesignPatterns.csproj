@@ -20,5 +20,6 @@
     <Folder Include="Patterns\Estructurales\" />
     <Folder Include="Patterns\Estructurales\AdapterPattern\" />
     <Folder Include="Patterns\Estructurales\CompositePattern\" />
+    <Folder Include="Patterns\Estructurales\FacadePattern\" />
   </ItemGroup>
 </Project>

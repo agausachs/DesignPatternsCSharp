@@ -21,5 +21,6 @@
     <Folder Include="Patterns\Estructurales\AdapterPattern\" />
     <Folder Include="Patterns\Estructurales\CompositePattern\" />
     <Folder Include="Patterns\Estructurales\FacadePattern\" />
+    <Folder Include="Patterns\Estructurales\ProxyPattern\" />
   </ItemGroup>
 </Project>

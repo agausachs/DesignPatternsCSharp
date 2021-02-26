@@ -5,8 +5,10 @@ using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
 using DesignPatterns.Patterns.Creacionales.PrototypePattern;
 using DesignPatterns.Patterns.Creacionales.SingletonPattern;
 using DesignPatterns.Patterns.Estructurales.AdapterPattern;
+using DesignPatterns.Patterns.Estructurales.BridgePattern;
 using DesignPatterns.Patterns.Estructurales.CompositePattern;
 using DesignPatterns.Patterns.Estructurales.FacadePattern;
+using DesignPatterns.Patterns.Estructurales.ProxyPattern;
 using DesignPatterns.SolidPrinciples.DependencyInversion;
 using DesignPatterns.SolidPrinciples.InterfaceSegregation;
 using DesignPatterns.SolidPrinciples.LiskovSubstitution;
@@ -38,6 +40,10 @@ namespace DesignPatterns
             CompositePatternProgram.Run();
 
             FacadePatternProgram.Run();
+
+            ProxyPatternProgram.Run();
+
+            BridgePatternProgram.Run();
 
             // SOLID PRINCIPLES
 

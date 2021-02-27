@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.Patterns.Comportamiento.ChainOfResponsibilityPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -50,6 +51,10 @@ namespace DesignPatterns
             DecoratorPatternProgram.Run();
 
             FlyweightPatternProgram.Run();
+
+            // PATTERNS DE COMPORTAMIENTO
+
+            ChainOfResponsibilityPatternProgram.Run();
 
             // SOLID PRINCIPLES
 

@@ -25,5 +25,7 @@
     <Folder Include="Patterns\Estructurales\BridgePattern\" />
     <Folder Include="Patterns\Estructurales\DecoratorPattern\" />
     <Folder Include="Patterns\Estructurales\FlyweightPattern\" />
+    <Folder Include="Patterns\Comportamiento\" />
+    <Folder Include="Patterns\Comportamiento\ChainOfResponsibilityPattern\" />
   </ItemGroup>
 </Project>

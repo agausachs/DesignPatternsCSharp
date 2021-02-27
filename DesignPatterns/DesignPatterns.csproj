@@ -23,5 +23,7 @@
     <Folder Include="Patterns\Estructurales\FacadePattern\" />
     <Folder Include="Patterns\Estructurales\ProxyPattern\" />
     <Folder Include="Patterns\Estructurales\BridgePattern\" />
+    <Folder Include="Patterns\Estructurales\DecoratorPattern\" />
+    <Folder Include="Patterns\Estructurales\FlyweightPattern\" />
   </ItemGroup>
 </Project>

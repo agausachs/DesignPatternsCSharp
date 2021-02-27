@@ -7,7 +7,9 @@ using DesignPatterns.Patterns.Creacionales.SingletonPattern;
 using DesignPatterns.Patterns.Estructurales.AdapterPattern;
 using DesignPatterns.Patterns.Estructurales.BridgePattern;
 using DesignPatterns.Patterns.Estructurales.CompositePattern;
+using DesignPatterns.Patterns.Estructurales.DecoratorPattern;
 using DesignPatterns.Patterns.Estructurales.FacadePattern;
+using DesignPatterns.Patterns.Estructurales.FlyweightPattern;
 using DesignPatterns.Patterns.Estructurales.ProxyPattern;
 using DesignPatterns.SolidPrinciples.DependencyInversion;
 using DesignPatterns.SolidPrinciples.InterfaceSegregation;
@@ -44,6 +46,10 @@ namespace DesignPatterns
             ProxyPatternProgram.Run();
 
             BridgePatternProgram.Run();
+
+            DecoratorPatternProgram.Run();
+
+            FlyweightPatternProgram.Run();
 
             // SOLID PRINCIPLES
 

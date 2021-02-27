@@ -28,5 +28,6 @@
     <Folder Include="Patterns\Comportamiento\" />
     <Folder Include="Patterns\Comportamiento\ChainOfResponsibilityPattern\" />
     <Folder Include="Patterns\Comportamiento\IteratorPattern\" />
+    <Folder Include="Patterns\Comportamiento\MediatorPattern\" />
   </ItemGroup>
 </Project>

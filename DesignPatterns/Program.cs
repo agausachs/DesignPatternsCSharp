@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPatterns.Patterns.Comportamiento.ChainOfResponsibilityPattern;
 using DesignPatterns.Patterns.Comportamiento.IteratorPattern;
+using DesignPatterns.Patterns.Comportamiento.MediatorPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -37,6 +38,7 @@ namespace DesignPatterns
 
             PrototypePatternProgram.Run();
 
+
             // PATTERNS ESTRUCTURALES
 
             AdapterPatternProgram.Run();
@@ -53,11 +55,29 @@ namespace DesignPatterns
 
             FlyweightPatternProgram.Run();
 
+
             // PATTERNS DE COMPORTAMIENTO
 
             ChainOfResponsibilityPatternProgram.Run();
 
             IteratorPatternProgram.Run();
+
+            //MementoPatternProgram.Run();
+
+            //StatePatternProgram.Run();
+
+            //TemplateMethodPatternProgram.Run();
+
+            //CommandPatternProgram.Run();
+
+            MediatorPatternProgram.Run();
+
+            //ObserverPatternProgram.Run();
+
+            //StrategyPatternProgram.Run();
+
+            //VisitorPatternProgram.Run();
+
 
             // SOLID PRINCIPLES
 

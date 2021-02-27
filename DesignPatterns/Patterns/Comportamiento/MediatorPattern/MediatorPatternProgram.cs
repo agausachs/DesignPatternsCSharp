@@ -9,6 +9,7 @@ namespace DesignPatterns.Patterns.Comportamiento.MediatorPattern
             Console.WriteLine(" MEDIATOR PATTERN ");
             Console.WriteLine("-------------------------");
 
+            // El código cliente.
             Component1 component1 = new Component1();
             Component2 component2 = new Component2();
             _ = new ConcreteMediator(component1, component2);

@@ -29,5 +29,6 @@
     <Folder Include="Patterns\Comportamiento\ChainOfResponsibilityPattern\" />
     <Folder Include="Patterns\Comportamiento\IteratorPattern\" />
     <Folder Include="Patterns\Comportamiento\MediatorPattern\" />
+    <Folder Include="Patterns\Comportamiento\MementoPattern\" />
   </ItemGroup>
 </Project>

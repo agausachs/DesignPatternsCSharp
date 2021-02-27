@@ -1,10 +1,12 @@
 ﻿using System;
 namespace DesignPatterns.Patterns.Comportamiento.MediatorPattern
 {
+    // Los mediadores concretos implementan el comportamiento cooperativo coordinando varios
+    // componentes.
     public class ConcreteMediator : IMediator
     {
-        private Component1 _component1;
-        private Component2 _component2;
+        private readonly Component1 _component1;
+        private readonly Component2 _component2;
 
         public ConcreteMediator(Component1 component1, Component2 component2)
         {

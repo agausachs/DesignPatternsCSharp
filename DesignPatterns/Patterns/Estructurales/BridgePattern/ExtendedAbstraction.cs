@@ -10,7 +10,7 @@ namespace DesignPatterns.Patterns.Estructurales.BridgePattern
 
         public override string Operation()
         {
-            return "ExtendedAbstraction: Extended operation with:\" + " +
+            return "ExtendedAbstraction: Operación extendida con:" +
                 base._implementation.OperationImplementation();
         }
     }

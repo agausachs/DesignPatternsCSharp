@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Patterns.Comportamiento.ChainOfResponsibilityPattern;
+using DesignPatterns.Patterns.Comportamiento.IteratorPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -55,6 +56,8 @@ namespace DesignPatterns
             // PATTERNS DE COMPORTAMIENTO
 
             ChainOfResponsibilityPatternProgram.Run();
+
+            IteratorPatternProgram.Run();
 
             // SOLID PRINCIPLES
 

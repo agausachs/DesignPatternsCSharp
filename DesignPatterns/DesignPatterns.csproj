@@ -27,5 +27,6 @@
     <Folder Include="Patterns\Estructurales\FlyweightPattern\" />
     <Folder Include="Patterns\Comportamiento\" />
     <Folder Include="Patterns\Comportamiento\ChainOfResponsibilityPattern\" />
+    <Folder Include="Patterns\Comportamiento\IteratorPattern\" />
   </ItemGroup>
 </Project>

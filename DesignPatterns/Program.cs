@@ -4,6 +4,7 @@ using DesignPatterns.Patterns.Comportamiento.IteratorPattern;
 using DesignPatterns.Patterns.Comportamiento.MediatorPattern;
 using DesignPatterns.Patterns.Comportamiento.MementoPattern;
 using DesignPatterns.Patterns.Comportamiento.StatePattern;
+using DesignPatterns.Patterns.Comportamiento.TemplateMethodPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -68,7 +69,7 @@ namespace DesignPatterns
 
             StatePatternProgram.Run();
 
-            //TemplateMethodPatternProgram.Run();
+            TemplateMethodPatternProgram.Run();
 
             //CommandPatternProgram.Run();
 

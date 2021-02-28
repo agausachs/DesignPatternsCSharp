@@ -3,12 +3,12 @@
 Permite a un objeto alterar su comportamiento cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
 
 
-# Próposito
+## Próposito
 
 State es un patrón de diseño de comportamiento que permite a un objeto alterar su comportamiento cuando su estado interno cambia. Parece como si el objeto cambiara su clase.
 
 
-# Problema
+## Problema
 
 El patrón State está estrechamente relacionado con el concepto de la Máquina de estados finitos.
 
@@ -27,7 +27,7 @@ La mayor debilidad de una máquina de estado basada en condicionales se revela u
 El problema tiende a empeorar con la evolución del proyecto. Es bastante difícil predecir todos los estados y transiciones posibles en la etapa de diseño. Por ello, una máquina de estados esbelta, creada con un grupo limitado de condicionales, puede crecer hasta convertirse en un abotargado desastre con el tiempo.
 
 
-# Solución
+## Solución
 
 El patrón State sugiere que crees nuevas clases para todos los estados posibles de un objeto y extraigas todos los comportamientos específicos del estado para colocarlos dentro de esas clases.
 
@@ -38,7 +38,7 @@ Para la transición del contexto a otro estado, sustituye el objeto de estado ac
 Esta estructura puede resultar similar al patrón Strategy, pero hay una diferencia clave. En el patrón State, los estados particulares pueden conocerse entre sí e iniciar transiciones de un estado a otro, mientras que las estrategias casi nunca se conocen.
 
 
-# Analogía en el mundo real
+## Analogía en el mundo real
 
 Los botones e interruptores de tu smartphone se comportan de forma diferente dependiendo del estado actual del dispositivo:
 
@@ -47,7 +47,7 @@ Los botones e interruptores de tu smartphone se comportan de forma diferente dep
 - Cuando la batería del teléfono está baja, pulsar un botón muestra la pantalla de carga.
 
 
-# Aplicabilidad
+## Aplicabilidad
 
 - Utiliza el patrón State cuando tengas un objeto que se comporta de forma diferente dependiendo de su estado actual, el número de estados sea enorme y el código específico del estado cambie con frecuencia.
 
@@ -62,7 +62,7 @@ Los botones e interruptores de tu smartphone se comportan de forma diferente dep
  El patrón State te permite componer jerarquías de clases de estado y reducir la duplicación, extrayendo el código común y metiéndolo en clases abstractas base.
 
 
-# Cómo implementarlo
+## Cómo implementarlo
 
 1. Decide qué clase actuará como contexto. Puede ser una clase existente que ya tiene el código dependiente del estado, o una nueva clase, si el código específico del estado está distribuido a lo largo de varias clases.
 

@@ -31,5 +31,6 @@
     <Folder Include="Patterns\Comportamiento\MediatorPattern\" />
     <Folder Include="Patterns\Comportamiento\MementoPattern\" />
     <Folder Include="Patterns\Comportamiento\StatePattern\" />
+    <Folder Include="Patterns\Comportamiento\TemplateMethodPattern\" />
   </ItemGroup>
 </Project>

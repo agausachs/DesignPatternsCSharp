@@ -1,5 +1,6 @@
 ﻿using System;
 using DesignPatterns.Patterns.Comportamiento.ChainOfResponsibilityPattern;
+using DesignPatterns.Patterns.Comportamiento.CommandPattern;
 using DesignPatterns.Patterns.Comportamiento.IteratorPattern;
 using DesignPatterns.Patterns.Comportamiento.MediatorPattern;
 using DesignPatterns.Patterns.Comportamiento.MementoPattern;
@@ -71,7 +72,7 @@ namespace DesignPatterns
 
             TemplateMethodPatternProgram.Run();
 
-            //CommandPatternProgram.Run();
+            CommandPatternProgram.Run();
 
             MediatorPatternProgram.Run();
 

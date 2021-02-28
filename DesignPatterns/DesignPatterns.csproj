@@ -32,5 +32,6 @@
     <Folder Include="Patterns\Comportamiento\MementoPattern\" />
     <Folder Include="Patterns\Comportamiento\StatePattern\" />
     <Folder Include="Patterns\Comportamiento\TemplateMethodPattern\" />
+    <Folder Include="Patterns\Comportamiento\CommandPattern\" />
   </ItemGroup>
 </Project>

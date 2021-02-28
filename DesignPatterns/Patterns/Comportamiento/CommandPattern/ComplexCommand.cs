@@ -5,12 +5,11 @@ namespace DesignPatterns.Patterns.Comportamiento.CommandPattern
     // objetos, llamados "receptores".
     public class ComplexCommand : ICommand
     {
-        private Receiver _receiver;
+        private readonly Receiver _receiver;
 
         // Datos del contexto, requeridos para lanzar los métodos del receptor.
-        private string _a;
-
-        private string _b;
+        private readonly string _a;
+        private readonly string _b;
 
         // Los comandos complejos pueden aceptar uno o varios objetos receptores junto
         // con cualquier dato de contexto vía constructor.

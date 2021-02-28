@@ -12,7 +12,7 @@ namespace DesignPatterns.Patterns.Comportamiento.MediatorPattern
 
         public void DoD()
         {
-            Console.WriteLine("Component 2 hace D.");
+            Console.WriteLine("Componente 2 hace D.");
 
             _mediator.Notify(this, "D");
         }

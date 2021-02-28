@@ -3,6 +3,7 @@ using DesignPatterns.Patterns.Comportamiento.ChainOfResponsibilityPattern;
 using DesignPatterns.Patterns.Comportamiento.IteratorPattern;
 using DesignPatterns.Patterns.Comportamiento.MediatorPattern;
 using DesignPatterns.Patterns.Comportamiento.MementoPattern;
+using DesignPatterns.Patterns.Comportamiento.StatePattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -65,7 +66,7 @@ namespace DesignPatterns
 
             MementoPatternProgram.Run();
 
-            //StatePatternProgram.Run();
+            StatePatternProgram.Run();
 
             //TemplateMethodPatternProgram.Run();
 

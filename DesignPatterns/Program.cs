@@ -8,6 +8,7 @@ using DesignPatterns.Patterns.Comportamiento.ObserverPattern;
 using DesignPatterns.Patterns.Comportamiento.StatePattern;
 using DesignPatterns.Patterns.Comportamiento.StrategyPattern;
 using DesignPatterns.Patterns.Comportamiento.TemplateMethodPattern;
+using DesignPatterns.Patterns.Comportamiento.VisitorPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
 using DesignPatterns.Patterns.Creacionales.FactoryMethodPattern;
@@ -82,7 +83,7 @@ namespace DesignPatterns
 
             StrategyPatternProgram.Run();
 
-            //VisitorPatternProgram.Run();
+            VisitorPatternProgram.Run();
 
 
             // SOLID PRINCIPLES

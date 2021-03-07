@@ -42,7 +42,7 @@ namespace DesignPatterns.Patterns.Comportamiento.StrategyPattern
                 resultStr += element + ",";
             }
 
-            Console.WriteLine(result);
+            Console.WriteLine(resultStr);
         }
     }
 }

@@ -34,5 +34,6 @@
     <Folder Include="Patterns\Comportamiento\TemplateMethodPattern\" />
     <Folder Include="Patterns\Comportamiento\CommandPattern\" />
     <Folder Include="Patterns\Comportamiento\ObserverPattern\" />
+    <Folder Include="Patterns\Comportamiento\StrategyPattern\" />
   </ItemGroup>
 </Project>

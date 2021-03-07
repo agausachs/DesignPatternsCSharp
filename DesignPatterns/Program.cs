@@ -6,6 +6,7 @@ using DesignPatterns.Patterns.Comportamiento.MediatorPattern;
 using DesignPatterns.Patterns.Comportamiento.MementoPattern;
 using DesignPatterns.Patterns.Comportamiento.ObserverPattern;
 using DesignPatterns.Patterns.Comportamiento.StatePattern;
+using DesignPatterns.Patterns.Comportamiento.StrategyPattern;
 using DesignPatterns.Patterns.Comportamiento.TemplateMethodPattern;
 using DesignPatterns.Patterns.Creacionales.AbstractFactoryPattern;
 using DesignPatterns.Patterns.Creacionales.BuilderPattern;
@@ -79,7 +80,7 @@ namespace DesignPatterns
 
             ObserverPatternProgram.Run();
 
-            //StrategyPatternProgram.Run();
+            StrategyPatternProgram.Run();
 
             //VisitorPatternProgram.Run();
 

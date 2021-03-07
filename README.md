@@ -1,4 +1,4 @@
-# DesignPatternsCSharp
+# Design Patterns C#
 
 Acopio de ejemplos de principios SOLID y patrones de diseño en C#.
 

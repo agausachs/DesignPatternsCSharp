@@ -77,7 +77,7 @@ Esto es Request específico.
 
 
 
-### ADAPTER PATTERN 
+### COMPOSITE PATTERN 
 
 Cliente: Recibí un componente simple:
 RESULT: Hoja

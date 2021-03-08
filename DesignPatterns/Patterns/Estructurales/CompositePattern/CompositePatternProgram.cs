@@ -7,7 +7,7 @@ namespace DesignPatterns.Patterns.Estructurales.CompositePattern
         {
 
             Console.WriteLine("-------------------------");
-            Console.WriteLine(" ADAPTER PATTERN ");
+            Console.WriteLine(" COMPOSITE PATTERN ");
             Console.WriteLine("-------------------------");
 
             Client client = new Client();

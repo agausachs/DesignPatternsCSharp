@@ -14,7 +14,7 @@ namespace DesignPatterns.Patterns.Estructurales.DecoratorPattern
         // extensión de las clases de decoradores.
         public override string Operation()
         {
-            return $"ConcreteDecoratorB({base.Operation()})";
+            return $"ConcreteDecoratorA({base.Operation()})";
         }
     }
 }
